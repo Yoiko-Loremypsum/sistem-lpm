@@ -1,0 +1,8 @@
+# Python Face Service — Sistem LPM UMI
+# Diuji dengan Python 3.10+
+
+flask>=3.0.0
+insightface>=0.7.3
+onnxruntime>=1.17.0   # CPU; ganti ke onnxruntime-gpu jika ada GPU NVIDIA
+numpy>=1.24.0
+Pillow>=10.0.0

@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+:root {
+    /* Palet Identitas Visual Universitas Methodist Indonesia (UMI) */
+    --umi-primary: #1358B8;
+    --umi-dark: #0B3F8C;
+    --umi-light: #E6EFFA;
+    --umi-white: #FFFFFF;
+    --umi-bg: #F4F6FA;
+    --umi-text-main: #0F172A;
+    --umi-text-muted: #64748B;
+    --umi-border: rgba(19, 88, 184, 0.12);
+}
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --color-umi-50: #F4F6FA;
+    --color-umi-100: #E6EFFA;
+    --color-umi-200: #C7DCF5;
+    --color-umi-300: #92BEED;
+    --color-umi-400: #4D96E1;
+    --color-umi-500: #1358B8;
+    --color-umi-600: #0E499D;
+    --color-umi-700: #0B3F8C;
+    --color-umi-800: #093270;
+    --color-umi-900: #062659;
+    --color-umi-primary: #1358B8;
+    --color-umi-dark: #0B3F8C;
+    --color-umi-light: #E6EFFA;
+}
